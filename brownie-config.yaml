@@ -1,0 +1,10 @@
+compiler:
+  solc:
+    remappings: 
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.0.0"
+    evm_version": Istanbul
+    optimize: true
+    runs: 200
+    version: "0.8.17+commit.8df45f5f.Windows.msvc"
+dependencies:
+  - "OpenZeppelin/openzeppelin-contracts@3.0.0"
